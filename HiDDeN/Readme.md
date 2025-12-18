@@ -5,8 +5,7 @@
 cd C:\Users\shenz\HiDDeN\hidden_demo
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install numpy pillow opencv-python pandas tqdm matplotlib
+pip install -r requirements.txt
 ```
 
 
@@ -17,9 +16,6 @@ checkpoints/coco2017-hidden-224-e20--epoch-20.pyt is a trained HiDDeN checkpoint
 ## 3) Run (export CSV)
 ### Easy way(one step) to set up
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
 powershell -ExecutionPolicy Bypass -File .\run_all.ps1
 ```
 
