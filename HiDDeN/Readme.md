@@ -83,9 +83,14 @@ python .\benchmark_hidden.py `
   --csv-out .\results\contrast_08.csv `
 ```
 
-## 6) Outputs
+## 4) Outputs
 
 All runs export CSV files into results/, containing:
 1. recovery rate / BER (depending on mode)
 2. optional timing (encoding/decoding), if enabled in the script
 3. payload configuration in payload mode
+
+
+## 5) Something else important
+If you want to find more ideas of how we practice HiDDeN, please check this repo! Forks from the original HiDDeN method with our editions!
+https://github.com/OliverShen20011217/HiDDeN
